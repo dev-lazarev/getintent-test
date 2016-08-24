@@ -47,6 +47,5 @@ class AjaxController extends Controller
 
         $rates = new Rates();
         echo json_encode($rates->get());
-        exit;
     }
 }
